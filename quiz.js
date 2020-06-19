@@ -84,31 +84,33 @@ const questions = [
         ]
     },
     {
-        question : "What is the product of 3 and 4?",
+        question : "What is the sum of 3 and 4?",
         answers : [
-            {text : "12", correct :true},
+            {text : "7", correct :true},
             {text : "34", correct: false}
         ]
     },
     {
-        question : "What is the product of 3 and 4?",
+        question : "Which of the foloowing is not a JS framework?",
         answers : [
-            {text : "12", correct :true},
-            {text : "34", correct: false}
+            {text : "JQuery", correct :false},
+            {text : "React", correct: true}
         ]
     },
     {
-        question : "What is the product of 3 and 4?",
+        question : "What does 'H' in HTML mean?",
         answers : [
-            {text : "12", correct :true},
-            {text : "34", correct: false}
+            {text : "hypertext", correct :true},
+            {text : "holla", correct: false}
         ]
     },
     {
-        question : "What is the product of 3 and 4?",
+        question : "What is the product of 5 and 4?",
         answers : [
-            {text : "12", correct :true},
-            {text : "34", correct: false}
+            {text : "12", correct :false},
+            {text : "20", correct: true},
+            {text : "54", correct: false},
+            {text : "45", correct: false}
         ]
     }
 ]
